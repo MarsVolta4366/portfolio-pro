@@ -5,7 +5,7 @@ import "./Profile.css"
 
 export default function Profile() {
     return (
-        <div className="profile-parent" id="home">
+        <div className="profile-parent">
             <div className="profile-details">
                 <div className="profile-details-name">
                     <span className="primary-text">

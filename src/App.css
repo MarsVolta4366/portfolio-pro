@@ -5,9 +5,42 @@
   font-weight: 400;
 }
 
+h2 {
+  font-size: 24px !important;
+  color: #2b2829;
+}
+
 .app {
   text-align: center;
   background-color: #D8D7D8;
-  height: 100vh;
+  height: 100%;
   margin: 0;
+  padding-bottom: 10px;
+}
+
+.myContainer {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 18px;
+}
+
+.myHeader {
+  border-bottom: 1px solid #2b2829;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.myHeader>h1 {
+  font-size: 32px;
+  color: #2b2829;
+}
+
+.myContent {
+  text-align: left;
+}
+
+.myContent>p {
+  color: #2b2829;
+  line-height: 1.8;
 }

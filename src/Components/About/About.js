@@ -1,12 +1,13 @@
 import "./About.css"
+// import "../../App.css"
 
 export default function About() {
     return (
-        <div id="aboutContainer">
-            <div id="aboutHeader">
+        <div id="aboutContainer" className="myContainer">
+            <div id="aboutHeader" className="myHeader">
                 <h1>ABOUT</h1>
             </div>
-            <div id="aboutContent">
+            <div id="aboutContent" className="myContent">
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;I've always wanted a job that's meaningful to me. For this reason I'm currently 
                     working towards completing the UW-Madison Full-Stack Development Bootcamp. 
                     Prior to this, I worked at a grocery store for several years and completed an 
