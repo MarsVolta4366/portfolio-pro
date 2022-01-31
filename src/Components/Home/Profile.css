@@ -1,0 +1,25 @@
+.profile-parent {
+    /* margin: 50px 0 0 12%; */
+    padding-top: 100px;
+}
+
+.primary-text {
+    font-size: 24px;
+    color: #807F80;
+}
+
+#profile-role-text {
+    font-size: 60px;
+    color: #2b2829 !important;
+}
+
+.profile-role-tagline {
+    font-size: 16px;
+    color: #807F80;
+}
+
+.myButton {
+    background-color: #2b2829 !important;
+    border: none !important;
+    margin-right: 10px;
+}
