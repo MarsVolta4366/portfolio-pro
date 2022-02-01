@@ -3,6 +3,7 @@
     background-color: #D8D7D8;
     width: 100%;
     border-bottom: 1px solid #807F80;
+    z-index: 500;
 }
 
 .nav-top-link {
