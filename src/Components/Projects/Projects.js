@@ -13,8 +13,22 @@ export default function Projects() {
                     <Row>
                         <Col>
                             <Card className="myCard">
+                                <Card.Img variant="top" src="../../../AlbumTrackerImage.png" />
+                                <Card.Body className="myBackground">
+                                    <Card.Title>Album Tracker</Card.Title>
+                                    <Card.Text>
+                                        A MERN stack application with the ability to make CRUD operations on a database via an API I made.
+                                    </Card.Text>
+                                    <Button variant="primary" href="https://albumtracker.netlify.app/" target="_blank">Check it Out</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card className="myCard">
                                 <Card.Img variant="top" src="../../../TicTacToeImage.png" />
-                                <Card.Body>
+                                <Card.Body className="myBackground">
                                     <Card.Title>Tic Tac Toe</Card.Title>
                                     <Card.Text>
                                         A two player Tic Tac Toe game, played on one device.
@@ -28,26 +42,12 @@ export default function Projects() {
                         <Col>
                             <Card className="myCard">
                                 <Card.Img variant="top" src="../../../RomanNumeralsConverterImage.png" />
-                                <Card.Body>
+                                <Card.Body className="myBackground">
                                     <Card.Title>Roman Numerals Converter</Card.Title>
                                     <Card.Text>
                                         Convert a number to roman numerals and roman numerals to a number.
                                     </Card.Text>
                                     <Button variant="primary" href="https://marsvolta4366.github.io/RomanNumeralsConverter/" target="_blank">Check it Out</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Card className="myCard">
-                                <Card.Img variant="top" src="../../../AlbumTrackerImage.png" />
-                                <Card.Body>
-                                    <Card.Title>Album Tracker</Card.Title>
-                                    <Card.Text>
-                                        A MERN stack application with the ability to make CRUD operations on a database via an API I made.
-                                    </Card.Text>
-                                    <Button variant="primary" href="https://albumtracker.netlify.app/" target="_blank">Check it Out</Button>
                                 </Card.Body>
                             </Card>
                         </Col>

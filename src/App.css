@@ -44,3 +44,7 @@ h2 {
   color: #2b2829;
   line-height: 1.8;
 }
+
+.myBackground {
+  background-color: #e6e6e6 !important;
+}

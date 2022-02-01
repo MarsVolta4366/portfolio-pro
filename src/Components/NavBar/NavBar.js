@@ -13,7 +13,7 @@ export default function NavBar() {
                         <Nav.Link href="#home" className="nav-top-link">HOME</Nav.Link>
                         <Nav.Link href="#education" className="nav-top-link">EDUCATION</Nav.Link>
                         <Nav.Link href="#projects" className="nav-top-link">PROJECTS</Nav.Link>
-                        <Nav.Link href="#link" className="nav-top-link">SKILLS</Nav.Link>
+                        <Nav.Link href="#skills" className="nav-top-link">SKILLS</Nav.Link>
                         <Nav.Link href="#link" className="nav-top-link">CONTACT ME</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
