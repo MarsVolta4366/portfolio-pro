@@ -41,12 +41,12 @@ export default function ContactMe() {
             <div className="myContent">
                 <Form action="" onSubmit={sendEmail}>
                     <InputGroup className="mb-3">
-                        <InputGroup.Text>Name</InputGroup.Text>
-                        <FormControl name="fullName" aria-label="First name" />
+                        <InputGroup.Text>Full Name</InputGroup.Text>
+                        <FormControl name="fullName" required placeholder="Full Name" aria-label="First name" />
                     </InputGroup>
                     <InputGroup className="mb-3">
                         <InputGroup.Text>Email</InputGroup.Text>
-                        <FormControl name="email" aria-label="Email" />
+                        <FormControl name="email" required placeholder="Email" aria-label="Email" />
                     </InputGroup>
                     <Form.Group className="mb-3">
                         <Form.Label>Message</Form.Label>
@@ -56,6 +56,7 @@ export default function ContactMe() {
                                 placeholder="Type your message here"
                                 style={{ height: '100px' }}
                                 name="message"
+                                required
                             />
                         </FloatingLabel>
                     </Form.Group>

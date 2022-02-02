@@ -1,4 +1,5 @@
 // Reference portfolio https://coryhughart.com/ http://findmatthew.com/
+// Set up routes and links then try this video https://www.youtube.com/watch?v=rD6662y-eWc
 import './App.css';
 import About from './Components/About/About';
 import ContactMe from './Components/ContactMe/ContactMe';
@@ -9,6 +10,7 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 
 function App() {
+
   return (
     <div className="app">
       <NavBar />
@@ -26,6 +28,7 @@ function App() {
       <ContactMe />
     </div>
   );
+
 }
 
 export default App;
