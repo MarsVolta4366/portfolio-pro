@@ -1,4 +1,4 @@
-// Reference portfolio https://coryhughart.com/
+// Reference portfolio https://coryhughart.com/ http://findmatthew.com/
 import './App.css';
 import About from './Components/About/About';
 import ContactMe from './Components/ContactMe/ContactMe';

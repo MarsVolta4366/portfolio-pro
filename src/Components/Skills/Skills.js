@@ -52,10 +52,10 @@ export default function Skills() {
                     >
                         <div style={{ width: "400px" }}>
                             <div className="fw-bold">JavaScript</div>
-                            <ProgressBar striped variant="primary" now={70} label={`70%`} />
+                            <ProgressBar striped variant="primary" now={80} label={`80%`} />
                         </div>
                         <Badge variant="primary" pill>
-                            Comfortable
+                            Confident
                         </Badge>
                     </ListGroup.Item>
                     <ListGroup.Item

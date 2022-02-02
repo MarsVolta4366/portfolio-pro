@@ -36,7 +36,7 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className="profile-options">
-                    <Button className="myButton">
+                    <Button className="myButton" href="#contactMe">
                         {" "}
                         Hire Me{" "}
                     </Button>
