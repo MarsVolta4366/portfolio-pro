@@ -5,21 +5,22 @@
 
 .primary-text {
     font-size: 24px;
-    color: #807F80;
+    /* color: #807F80; */
 }
 
 #profile-role-text {
     font-size: 60px;
     color: #2b2829 !important;
+    height: 100px;
 }
 
 .profile-role-tagline {
     font-size: 16px;
-    color: #807F80;
+    color: #a5a5a5;
 }
 
 .myButton {
-    background-color: #2b2829 !important;
+    background-color: #662ece !important;
     border: none !important;
     margin-right: 10px;
 }

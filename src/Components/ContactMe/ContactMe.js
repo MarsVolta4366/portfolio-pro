@@ -61,7 +61,7 @@ export default function ContactMe() {
                         </FloatingLabel>
                     </Form.Group>
                     <Button variant="info" type="submit">
-                        Send <Send color="white" />
+                        Send <Send color="black" />
                     </Button>
                     <div>
                         {result ? <Result /> : null}

@@ -1,18 +1,19 @@
 * {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  color: #2b2829;
+  /* margin: 0; */
+  /* color: #2b2829; */
+  color: white;
   font-weight: 400;
 }
 
 h2 {
   font-size: 24px !important;
-  color: #2b2829;
+  /* color: #2b2829; */
 }
 
 .app {
   text-align: center;
-  background-color: #D8D7D8;
+  background-color: #202732;
   height: 100%;
   margin: 0;
   padding-bottom: 150px;
@@ -26,14 +27,15 @@ h2 {
 }
 
 .myHeader {
-  border-bottom: 1px solid #2b2829;
+  /* border-bottom: 1px solid #2b2829; */
+  border-bottom: 1px solid white;
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
 
 .myHeader>h1 {
   font-size: 32px;
-  color: #2b2829;
+  /* color: #2b2829; */
 }
 
 .myContent {
@@ -41,10 +43,20 @@ h2 {
 }
 
 .myContent>p {
-  color: #2b2829;
+  /* color: #2b2829; */
   line-height: 1.8;
 }
 
 .myBackground {
-  background-color: #e6e6e6 !important;
+  /* background-color: #e6e6e6 !important; */
+  background-color: #0e0e18 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .myContainer {
+    width: 90%;
+  }
+  #profile-role-text {
+    font-size: 24px !important;
+  }
 }

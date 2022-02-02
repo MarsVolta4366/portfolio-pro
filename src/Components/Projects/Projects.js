@@ -19,7 +19,7 @@ export default function Projects() {
                                     <Card.Text>
                                         A MERN stack application with the ability to make CRUD operations on a database via an API I made.
                                     </Card.Text>
-                                    <Button variant="primary" href="https://albumtracker.netlify.app/" target="_blank">Check it Out</Button>
+                                    <Button className="myButton" href="https://albumtracker.netlify.app/" target="_blank">Check it Out</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -33,7 +33,7 @@ export default function Projects() {
                                     <Card.Text>
                                         A two player Tic Tac Toe game, played on one device.
                                     </Card.Text>
-                                    <Button variant="primary" href="https://marsvolta4366.github.io/MilestoneProjectI/" target="_blank">Check it Out</Button>
+                                    <Button className="myButton" href="https://marsvolta4366.github.io/MilestoneProjectI/" target="_blank">Check it Out</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -47,7 +47,7 @@ export default function Projects() {
                                     <Card.Text>
                                         Convert a number to roman numerals and roman numerals to a number.
                                     </Card.Text>
-                                    <Button variant="primary" href="https://marsvolta4366.github.io/RomanNumeralsConverter/" target="_blank">Check it Out</Button>
+                                    <Button className="myButton" href="https://marsvolta4366.github.io/RomanNumeralsConverter/" target="_blank">Check it Out</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
