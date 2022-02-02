@@ -1,12 +1,14 @@
 import "./ContactMe.css"
-import { Form, Button, InputGroup, FormControl, FloatingLabel } from "react-bootstrap"
+import { Form, Button, InputGroup, FormControl, FloatingLabel, Alert } from "react-bootstrap"
 import { Send } from "react-bootstrap-icons";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 
 const Result = () => {
     return (
-        <p style={{marginTop: "20px"}}>Thanks for the message! I'll get back to you as soon as possible.</p>
+        <Alert variant={"success"} style={{marginTop: "20px"}}>
+            Thanks for the message! I'll get back to you as soon as possible.
+        </Alert>
     )
 }
 
