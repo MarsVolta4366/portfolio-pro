@@ -1,6 +1,7 @@
 #nav-top {
     position: fixed;
-    background-color: #D8D7D8;
+    /* background-color: #D8D7D8; */
+    background-color: #202732;
     width: 100%;
     border-bottom: 1px solid #807F80;
     z-index: 500;
@@ -8,13 +9,14 @@
 
 .nav-top-link {
     font-size: 16px !important;
+    color: #9c9c9c !important;
 }
   
 .nav-top-link:hover {
-    color: black;
+    color: white !important;
 }
   
 .nav-heading {
     font-size: 24px !important;
-    color: #3F3D3F !important;
+    color: white !important;
 }

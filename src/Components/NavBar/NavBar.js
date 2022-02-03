@@ -1,6 +1,6 @@
 import "./NavBar.css"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import { Github, Linkedin } from "react-bootstrap-icons";
+import { Github, Linkedin, List } from "react-bootstrap-icons";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -11,7 +11,9 @@ export default function NavBar() {
         <Navbar bg="#D8D7D8" expand="lg" id="nav-top" expanded={isExpanded}>
             <Container>
                 <Navbar.Brand onClick={() => setIsExpanded(false)} href="#home" className="nav-heading">Derek Slauson</Navbar.Brand>
-                <Navbar.Toggle onClick={() => setIsExpanded(isExpanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle onClick={() => setIsExpanded(isExpanded ? false : "expanded")} aria-controls="basic-navbar-nav">
+                <List size={24} />
+                </Navbar.Toggle>    
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link onClick={() => setIsExpanded(false)} href="#home" active={false} className="nav-top-link">HOME</Nav.Link>
@@ -24,11 +26,11 @@ export default function NavBar() {
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
                         <a href="https://github.com/MarsVolta4366" target="_blank">
-                            <Github size={24} color="black" />
+                            <Github size={24} color="white" />
                         </a>
                         {" "}
                         <a href="https://www.linkedin.com/in/derekslauson" target="_blank">
-                            <Linkedin size={24} color="black" />
+                            <Linkedin size={24} color="white" />
                         </a>
                     </Navbar.Text>
                 </Navbar.Collapse>
