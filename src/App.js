@@ -1,5 +1,3 @@
-// Reference portfolio https://coryhughart.com/ http://findmatthew.com/
-// Set up routes and links then try this video https://www.youtube.com/watch?v=rD6662y-eWc
 import './App.css';
 import About from './Components/About/About';
 import ContactMe from './Components/ContactMe/ContactMe';
