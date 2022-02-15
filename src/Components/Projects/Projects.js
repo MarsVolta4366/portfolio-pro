@@ -27,6 +27,20 @@ export default function Projects() {
                     <Row>
                         <Col>
                             <Card className="myCard">
+                                <Card.Img variant="top" src="../../../RecipeSearchReactImage.png" />
+                                <Card.Body className="myBackground">
+                                    <Card.Title>Recipe Search React</Card.Title>
+                                    <Card.Text>
+                                        A react app which allows you to search recipes, this app utilizes the Spoonacular API to get recipes.
+                                    </Card.Text>
+                                    <Button className="myButton" href="https://recipe-search-react.herokuapp.com/" target="_blank">Check it Out</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card className="myCard">
                                 <Card.Img variant="top" src="../../../TicTacToeImage.png" />
                                 <Card.Body className="myBackground">
                                     <Card.Title>Tic Tac Toe</Card.Title>
