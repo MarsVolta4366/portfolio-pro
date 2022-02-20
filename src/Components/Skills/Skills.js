@@ -87,8 +87,32 @@ export default function Skills() {
                         className="d-flex justify-content-between align-items-start myBackground"
                     >
                         <div style={{ width: "400px" }}>
+                            <div className="fw-bold">SQL/PostgreSQL</div>
+                            <ProgressBar striped variant="primary" now={80} label={`80%`} />
+                        </div>
+                        <Badge variant="primary" pill>
+                            Confident
+                        </Badge>
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start myBackground"
+                    >
+                        <div style={{ width: "400px" }}>
+                            <div className="fw-bold">Sequelize</div>
+                            <ProgressBar striped variant="primary" now={80} label={`80%`} />
+                        </div>
+                        <Badge variant="primary" pill>
+                            Confident
+                        </Badge>
+                    </ListGroup.Item>
+                    <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start myBackground"
+                    >
+                        <div style={{ width: "400px" }}>
                             <div className="fw-bold">UI Design</div>
-                            <ProgressBar striped variant="primary" now={50} label={`50%`} />
+                            <ProgressBar striped variant="primary" now={60} label={`60%`} />
                         </div>
                         <Badge variant="primary" pill>
                             Need Practice
