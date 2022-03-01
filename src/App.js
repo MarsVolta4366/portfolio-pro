@@ -25,7 +25,7 @@ function App() {
       <span id="contactMe"></span>
       <ContactMe />
     </div>
-  );
+  )
 
 }
 
