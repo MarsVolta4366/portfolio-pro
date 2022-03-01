@@ -27,6 +27,20 @@ export default function Projects() {
                     <Row>
                         <Col>
                             <Card className="myCard">
+                                <Card.Img variant="top" src="../../../BlogImage.png" />
+                                <Card.Body className="myBackground">
+                                    <Card.Title>Blog.it</Card.Title>
+                                    <Card.Text>
+                                        A MERN stack blog application, this was built as a group project.
+                                    </Card.Text>
+                                    <Button className="myButton" href="https://cranky-golick-d658db.netlify.app/" target="_blank">Check it Out</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card className="myCard">
                                 <Card.Img variant="top" src="../../../RecipeSearchReactImage.png" />
                                 <Card.Body className="myBackground">
                                     <Card.Title>Recipe Search React</Card.Title>
