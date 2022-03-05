@@ -1,5 +1,8 @@
 .myCard {
-    /* background-color: #D8D7D8 !important; */
     margin-bottom: 10px;
-    border: 1px solid #3F3D3F !important;
+    border: none !important;
+}
+
+.myLink {
+    text-decoration: none;
 }

@@ -106,18 +106,6 @@ export default function Skills() {
                             Confident
                         </Badge>
                     </ListGroup.Item>
-                    <ListGroup.Item
-                        as="li"
-                        className="d-flex justify-content-between align-items-start myBackground"
-                    >
-                        <div style={{ width: "400px" }}>
-                            <div className="fw-bold">UI Design</div>
-                            <ProgressBar striped variant="primary" now={60} label={`60%`} />
-                        </div>
-                        <Badge variant="primary" pill>
-                            Need Practice
-                        </Badge>
-                    </ListGroup.Item>
                 </ListGroup>
             </div>
         </div>

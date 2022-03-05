@@ -25,11 +25,11 @@ export default function NavBar() {
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        <a href="https://github.com/MarsVolta4366" target="_blank">
+                        <a href="https://github.com/MarsVolta4366" target="_blank" rel="noreferrer">
                             <Github size={24} color="white" />
                         </a>
                         {" "}
-                        <a href="https://www.linkedin.com/in/derekslauson" target="_blank">
+                        <a href="https://www.linkedin.com/in/derekslauson" target="_blank" rel="noreferrer">
                             <Linkedin size={24} color="white" />
                         </a>
                     </Navbar.Text>
