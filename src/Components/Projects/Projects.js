@@ -14,7 +14,7 @@ export default function Projects() {
                         <Col>
                             <a href="https://albumtracker.netlify.app/" target="_blank" rel="noreferrer" className="myLink">
                                 <Card className="myCard">
-                                    <Card.Img variant="top" src="../../../AlbumTrackerImage.png" />
+                                    <Card.Img variant="top" src="../../../AlbumTrackerImageR.png" />
                                     <Card.Body className="myBackground">
                                         <Card.Title>Album Tracker</Card.Title>
                                         <Card.Text>
