@@ -52,10 +52,17 @@ h2 {
   background-color: #0e0e18 !important;
 }
 
+.myBackgroundAndBorder {
+  /* background-color: #e6e6e6 !important; */
+  background-color: #0e0e18 !important;
+  border: 1px solid gray !important;
+}
+
 @media only screen and (max-width: 800px) {
   .myContainer {
     width: 90%;
   }
+
   #profile-role-text {
     font-size: 24px !important;
   }
