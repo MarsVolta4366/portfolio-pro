@@ -12,6 +12,21 @@ export default function Projects() {
                 <Container>
                     <Row>
                         <Col>
+                            <a href="https://unrivaled-moonbeam-066202.netlify.app/" target="_blank" rel="noreferrer" className="myLink">
+                                <Card className="myCard">
+                                    <Card.Img variant="top" src="../../../Reddit-Clone-Screen-Shot.png" />
+                                    <Card.Body className="myBackground">
+                                        <Card.Title>Reddit Clone</Card.Title>
+                                        <Card.Text>
+                                            A clone I made of the popular website Reddit.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
                             <a href="https://albumtracker.netlify.app/" target="_blank" rel="noreferrer" className="myLink">
                                 <Card className="myCard">
                                     <Card.Img variant="top" src="../../../AlbumTrackerImageR.png" />
