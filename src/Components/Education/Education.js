@@ -12,12 +12,13 @@ export default function Education() {
                 <ul>
                     <li>AS in Web Software Development</li>
                     <li>GPA: 3.9</li>
+                    <li>September 2016 - May 2019</li>
                 </ul>
-                <h2>UW-Madison Full-Stack Development Bootcamp</h2>
+                <h2>UNIVERSITY OF WISCONSIN-MADISON</h2>
                 <p>Madison, WI</p>
                 <ul>
-                    <li>Currently Enrolled</li>
-                    <li>Expected Graduation Date: May 2022</li>
+                    <li>Software Development Professional Certificate</li>
+                    <li>September 2021 - May 2022</li>
                 </ul>
             </div>
         </div>
