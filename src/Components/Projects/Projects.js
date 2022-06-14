@@ -12,6 +12,21 @@ export default function Projects() {
                 <Container>
                     <Row>
                         <Col>
+                            <a href="https://dazzling-douhua-12f593.netlify.app" target="_blank" rel="noreferrer" className="myLink">
+                                <Card className="myCard">
+                                    <Card.Img variant="top" src="../../../RecipeSearchImage.png" />
+                                    <Card.Body className="myBackground">
+                                        <Card.Title>Recipe Search</Card.Title>
+                                        <Card.Text>
+                                            A react app which allows you to search recipes, this app utilizes the Spoonacular API.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
                             <a href="https://unrivaled-moonbeam-066202.netlify.app/" target="_blank" rel="noreferrer" className="myLink">
                                 <Card className="myCard">
                                     <Card.Img variant="top" src="../../../Reddit-Clone-Screen-Shot.png" />
@@ -49,21 +64,6 @@ export default function Projects() {
                                         <Card.Title>Blog.it</Card.Title>
                                         <Card.Text>
                                             A MERN stack blog application, this was built as a group project.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </a>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <a href="https://recipe-search-react.herokuapp.com/" target="_blank" rel="noreferrer" className="myLink">
-                                <Card className="myCard">
-                                    <Card.Img variant="top" src="../../../RecipeSearchReactImage.png" />
-                                    <Card.Body className="myBackground">
-                                        <Card.Title>Recipe Search React</Card.Title>
-                                        <Card.Text>
-                                            A react app which allows you to search recipes, this app utilizes the Spoonacular API to get recipes.
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
