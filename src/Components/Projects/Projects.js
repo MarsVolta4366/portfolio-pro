@@ -1,6 +1,6 @@
 // Do run command, capture screen shot with dev tools as narrow as possible to get same sized images
 import "./Projects.css"
-import { Container, Row, Col, Card, Button } from "react-bootstrap"
+import { Container, Row, Col, Card } from "react-bootstrap"
 
 export default function Projects() {
     return (
